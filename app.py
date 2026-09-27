@@ -10,8 +10,11 @@ def home():
 
 
 @app.route("/outputs/<path:filename>")
-def outputs(filename):
-    return send_from_directory("outputs", filename)
+def output_file(filename):
+    return send_from_directory(
+        os.path.join(app.root_path, "outputs"),
+        filename
+    )
 
 
 @app.route("/health")
@@ -19,10 +22,10 @@ def health():
     return {
         "status": "healthy",
         "project": "NeuralPy",
-        "accuracy": "97.97%"
+        "test_accuracy": "97.97%",
+        "framework": "NumPy"
     }
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    app.run(debug=True)
