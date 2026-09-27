@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NeuralPy | Neural Network From Scratch</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">🧠 NeuralPy</div>
+
+    <div class="nav-links">
+        <a href="#architecture">Architecture</a>
+        <a href="#performance">Performance</a>
+        <a href="#framework">Framework</a>
+    </div>
+</nav>
+
+
+<section class="hero">
+
+    <div class="badge">
+        PROSTACKHUB PYTHON INTERNSHIP PROJECT
+    </div>
+
+    <h1>
+        Neural Networks
+        <span>From Scratch.</span>
+    </h1>
+
+    <p>
+        A lightweight neural network framework built using
+        Python and NumPy — without TensorFlow or PyTorch.
+    </p>
+
+    <div class="buttons">
+
+        <a class="primary"
+           href="#performance">
+            Explore Results
+        </a>
+
+        <a class="secondary"
+           href="https://github.com/Shibaji157/ProStackHub_NeuralPy"
+           target="_blank">
+            View GitHub
+        </a>
+
+    </div>
+
+</section>
+
+
+<section class="stats">
+
+    <div class="stat">
+        <h2>97.97%</h2>
+        <p>MNIST Test Accuracy</p>
+    </div>
+
+    <div class="stat">
+        <h2>70K</h2>
+        <p>MNIST Samples</p>
+    </div>
+
+    <div class="stat">
+        <h2>3</h2>
+        <p>Optimizers</p>
+    </div>
+
+    <div class="stat">
+        <h2>0</h2>
+        <p>Deep Learning Frameworks</p>
+    </div>
+
+</section>
+
+
+<section id="architecture">
+
+    <div class="section-title">
+        <span>MODEL ARCHITECTURE</span>
+        <h2>Built From First Principles</h2>
+        <p>
+            Forward propagation and backpropagation are
+            implemented using NumPy operations.
+        </p>
+    </div>
+
+
+    <div class="architecture">
+
+        <div class="node">
+            <strong>784</strong>
+            <span>Input</span>
+        </div>
+
+        <div class="arrow">→</div>
+
+        <div class="node highlight">
+            <strong>256</strong>
+            <span>Linear + ReLU</span>
+        </div>
+
+        <div class="arrow">→</div>
+
+        <div class="node highlight">
+            <strong>128</strong>
+            <span>Linear + ReLU</span>
+        </div>
+
+        <div class="arrow">→</div>
+
+        <div class="node">
+            <strong>10</strong>
+            <span>Output Classes</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="performance">
+
+    <div class="section-title">
+
+        <span>EXPERIMENT RESULTS</span>
+
+        <h2>Training Performance</h2>
+
+        <p>
+            NeuralPy achieved 97.97% test accuracy on
+            handwritten digit classification.
+        </p>
+
+    </div>
+
+
+    <div class="charts">
+
+        <div class="chart-card">
+
+            <h3>Training Accuracy</h3>
+
+            <img
+            src="/outputs/accuracy_curve.png"
+            alt="NeuralPy training accuracy">
+
+        </div>
+
+
+        <div class="chart-card">
+
+            <h3>Training Loss</h3>
+
+            <img
+            src="/outputs/loss_curve.png"
+            alt="NeuralPy training loss">
+
+        </div>
+
+
+        <div class="chart-card">
+
+            <h3>Weight Distribution</h3>
+
+            <img
+            src="/outputs/weight_distribution.png"
+            alt="Weight distribution">
+
+        </div>
+
+
+        <div class="chart-card">
+
+            <h3>Gradient Flow</h3>
+
+            <img
+            src="/outputs/gradient_flow.png"
+            alt="Gradient flow">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="framework">
+
+    <div class="section-title">
+
+        <span>FRAMEWORK COMPONENTS</span>
+
+        <h2>Everything Implemented From Scratch</h2>
+
+    </div>
+
+
+    <div class="components">
+
+        <div class="component">
+            <h3>Tensor</h3>
+            <p>
+                Custom tensor abstraction with automatic
+                differentiation fundamentals.
+            </p>
+        </div>
+
+
+        <div class="component">
+            <h3>Layers</h3>
+            <p>
+                Fully connected Linear layers with forward
+                and backward propagation.
+            </p>
+        </div>
+
+
+        <div class="component">
+            <h3>Activations</h3>
+            <p>
+                ReLU, Sigmoid and Tanh activation functions.
+            </p>
+        </div>
+
+
+        <div class="component">
+            <h3>Loss Functions</h3>
+            <p>
+                Cross Entropy and Mean Squared Error.
+            </p>
+        </div>
+
+
+        <div class="component">
+            <h3>Optimizers</h3>
+            <p>
+                SGD, Adam and RMSprop optimization algorithms.
+            </p>
+        </div>
+
+
+        <div class="component">
+            <h3>ONNX Export</h3>
+            <p>
+                Trained model exported for interoperability
+                with standard ML tools.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="achievement">
+
+    <div>
+
+        <span>FINAL RESULT</span>
+
+        <h2>97.97%</h2>
+
+        <h3>MNIST Test Accuracy</h3>
+
+        <p>
+            Target: >95% ✓ Achieved
+        </p>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <h3>🧠 NeuralPy</h3>
+
+    <p>
+        Built from scratch with Python + NumPy
+    </p>
+
+    <p>
+        ProStackHub Python Programming Internship
+    </p>
+
+    <p class="developer">
+        Developed by Shibaji Biswas
+    </p>
+
+</footer>
+
+
+</body>
+</html>
