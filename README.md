@@ -1,3 +1,19 @@
+
+
+## 🌐 Live Demo
+
+🚀 **Live Application:** https://pro-stack-hub-neural-py.vercel.app
+
+💻 **GitHub Repository:** https://github.com/Shibaji157/ProStackHub_NeuralPy
+
+---
+
+## 🏆 Key Result
+
+NeuralPy achieved **97.97% test accuracy on MNIST**, exceeding the project target of 95%.
+
+The neural network was implemented from scratch using Python and NumPy without PyTorch or TensorFlow.
+
 # 🧠 NeuralPy — Neural Network Library From Scratch
 
 NeuralPy is a lightweight neural network framework implemented from scratch using Python and NumPy.
@@ -190,3 +206,5 @@ Developed as part of the **ProStackHub Python Programming Internship**.
 **Project:** NeuralPy — A From-Scratch Neural Network Library
 
 **Developer:** Shibaji Biswas
+**Email :** shibajibiswas.cse@gmail.com
+       Chandigarh University
